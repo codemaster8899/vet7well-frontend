@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": false,  // https://github.com/vitejs/vite/issues/4636
+    "experimentalDecorators": true,
+  },
+  "extends": "./.quasar/tsconfig.json"
+}

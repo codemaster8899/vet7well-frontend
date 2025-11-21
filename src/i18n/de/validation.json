@@ -1,0 +1,8 @@
+{
+  "validation.email": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+  "validation.password": "Bitte geben Sie Ihr Passwort ein",
+  "validation.loginFailed": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihre E-Mail-Adresse und Ihr Passwort",
+  "validation.loginSuccess": "Anmeldung erfolgreich",
+  "validation.forgotPassword.emailNotFound": "E-Mail-Adresse nicht gefunden",
+  "validation.forgotPassword.emailSent": "E-Mail gesendet"
+}

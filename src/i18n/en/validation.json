@@ -1,0 +1,8 @@
+{
+  "validation.email": "Please enter your email",
+  "validation.password": "Please enter your password",
+  "validation.loginFailed": "Login failed. Please check your email and password",
+  "validation.loginSuccess": "Login successful",
+  "validation.forgotPassword.emailNotFound": "Email not found",
+  "validation.forgotPassword.emailSent": "Email sent successfully. Please check your inbox"
+}

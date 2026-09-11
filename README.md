@@ -1,63 +1,57 @@
-# VET7.Well v2 (vet7well-v2)
+# VET7.Well — Frontend (v2)
 
-VET7.Well new version / frontend
+Vue 3 / Quasar frontend for **VET7.Well**, a veterinary wellness web application: user auth, dashboard, and API-backed patient/clinic workflows.
 
-Please set format on save option on your editor to true to keep the code clean and consistent.
-prettier is formatting the code on save.
+## About
 
-Use quasar cli to add new components, pages, layouts etc. see https://quasar.dev/start/quasar-cli
-```aiignore
+SPA built with Quasar CLI (Vite), Pinia stores, Vue Router, and vue-i18n. Talks to a backend via Axios (`VITE_APP_API_URL`).
+
+## Tech stack
+
+- **Vue 3** + **TypeScript**
+- **Quasar 2** (Vite)
+- **Pinia** (+ persisted / shared state plugins)
+- **Vue Router** + **vue-i18n** (EN / DE)
+- **Axios** API client
+- **Sentry** error tracking
+- **ESLint** + **Prettier**
+
+## Project structure
+
+```
+src/
+  pages/        Screens (index, login, forgot password, dashboard)
+  layouts/      Empty + main app shells
+  components/   UI and user components
+  stores/       Pinia stores (auth, common)
+  services/     API service wrappers
+  boot/         Quasar boot files (axios, i18n, …)
+  i18n/         Locale messages (en, de)
+  router/       Route definitions
+  models/       Shared TypeScript models
+```
+
+## Getting started
+
+```bash
+npm install
+npm run dev      # or: quasar dev
+npm run build    # or: quasar build
+npm run lint
+npm run format
+```
+
+Optional Quasar CLI:
+
+```bash
 npm i -g @quasar/cli
-```
-
-more: https://quasar.dev/quasar-cli-vite/commands-list/
-
-```aiignore
-quasar new -h
-```
-
-
-```aiignore
 quasar new component folder/MyComponent
 quasar new page dirname/MyPage
 quasar new layout MyLayout
 ```
 
-## Install the dependencies
-```bash
-npm install
-```
+Configure the API base URL (and related keys) via environment variables such as `VITE_APP_API_URL`.
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
+## Author
 
-# or
-
-npm run dev
-```
-
-### Start app in docker container
-```bash
-npm run build
-```
-assuming you already have the docker container running
-
-### Lint the files
-```bash
-npm run lint
-```
-
-
-### Format the files
-```bash
-npm run format
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+**codemaster8899**

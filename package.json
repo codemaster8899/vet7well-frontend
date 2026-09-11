@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "VET7.Well version 2 / frontend",
   "productName": "VET7.Well v2",
-  "author": "Alp Altunel <alp.altunel@vet7.net>",
+  "author": "codemaster8899",
   "type": "module",
   "private": true,
   "scripts": {
